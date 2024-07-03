@@ -1,6 +1,6 @@
 import { TitleProps } from './Title.type'
 
-export default function Title(props: TitleProps) {
+export  function Title(props: TitleProps) {
   const { text, className } = props
   return (
     <div className={className}>
