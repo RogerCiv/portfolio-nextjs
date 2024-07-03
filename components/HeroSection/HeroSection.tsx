@@ -2,7 +2,9 @@ import Link from "next/link";
 import { MovingBorderBtn } from "../ui/moving-border";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 import { TypewriterEffect } from "../ui/typewriter-effect";
-import Title from "../Title/Title";
+import { Title } from "../Title";
+
+
 
 
 
@@ -32,6 +34,7 @@ export function HeroSection() {
   return (
     <div className=" min-h-[60vh] flex flex-col-reverse gap-14 lg:gap-0 lg:flex-row items-center justify-between mt-10 md:mt-0">
       <div className="space-y-10 text-center md:text-left">
+
         <TypewriterEffect words={words} className="text-4xl lg:text-7xl font-bold" cursorClassName="bg-accent" />
         {/* <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 🖖 <br /> <span className="underline underline-offset-8 decoration-accent">{"I'm RogerCiv"}</span></h1> */}
         <p className="md:w-96 text-lg text-gray-300">
