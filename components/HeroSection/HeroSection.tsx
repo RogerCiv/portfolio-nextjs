@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MovingBorderBtn } from "../ui/moving-border";
-import { TextGenerateEffect } from "../ui/text-generate-effect";
+
 import { TypewriterEffect } from "../ui/typewriter-effect";
 import { Title } from "../Title";
 

@@ -12,7 +12,7 @@
     {
       title: "Project 2",
       description: "This is a project 2 description",
-      tech: ["React", "Tailwind", "Laravel"],
+      tech: ["React", "Tailwind", "Laravel", "Inertia.js"],
       link: "https://github.com",
       cover: "https://via.placeholder.com/150",
       backgroundColor: "#000",
