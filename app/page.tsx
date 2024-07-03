@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { Skills } from "@/components/Skills/Skills";
+import { Works } from "@/components/Works/Works";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
+        <Works />
       </div>
     </main>
   );

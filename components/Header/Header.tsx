@@ -11,7 +11,7 @@ export function Header() {
         {/* logo */}
         <Link href='/'>
           <h1 className="text-4xl font-semibold">
-            Nombre <span className="text-accent">.</span>
+            Roger<span className="text-accent">Civ</span>
           </h1>
         </Link>
         {/* desktop nav & hire me button */}

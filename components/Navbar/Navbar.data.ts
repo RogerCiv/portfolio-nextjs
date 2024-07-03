@@ -4,11 +4,11 @@ export const NavbarData = [
     label: "Home",
   },
   {
-    href: "/works",
+    href: "#works",
     label: "works",
   },
   {
-    href: "/about",
+    href: "#about",
     label: "About",
   },
 ]
