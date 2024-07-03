@@ -20,7 +20,7 @@ export function Works() {
                     <>
                       <h1 className="text-4xl font-semibold text-black dark:text-white">
                         {work.title} <br />
-                        <p className='text-4xl md:text-[6rem] font-bold mt-1 leading-none'>{work.description}</p>
+                        <p className='text-4xl md:text-[6rem] font-bol text-gray-300 mt-1 leading-none'>{work.description}</p>
                       </h1>
                       <p className="text-base text-accent font-bold mt-1 leading-none">
                         {work.tech.join(" | ")}

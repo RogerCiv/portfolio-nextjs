@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer/Footer";
 import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import { Skills } from "@/components/Skills/Skills";
@@ -17,6 +18,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
         <Works />
+        <Footer />
       </div>
     </main>
   );
