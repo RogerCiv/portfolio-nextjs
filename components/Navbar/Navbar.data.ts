@@ -4,16 +4,12 @@ export const NavbarData = [
     label: "Home",
   },
   {
-    href: "/blog",
-    label: "Blog",
+    href: "/works",
+    label: "works",
   },
   {
     href: "/about",
     label: "About",
   },
-  {
-    href: "/contact",
-    label: "Contact",
-  }
 ]
 
