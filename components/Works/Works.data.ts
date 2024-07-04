@@ -1,36 +1,37 @@
+import { SiInertia, SiLaravel, SiNextdotjs, SiReact, SiTailwindcss } from "react-icons/si";
 
 
  export const dataWorks = [
     {
       title: "Project 1",
       description: "This is a project 1 description",
-      tech: ["React", "Tailwind", "Next.js"],
+      tech: [SiReact, SiTailwindcss, SiNextdotjs],
       link: "https://github.com",
       cover: "/portfolio.png",
-      backgroundColor: "#000",
+      backgroundColor: "border border-accent hover:border-indigo-500",
     },
     {
       title: "Project 2",
       description: "This is a project 2 description",
-      tech: ["React", "Tailwind", "Laravel", "Inertia.js"],
+      tech: [SiReact, SiTailwindcss, SiLaravel, SiInertia],
       link: "https://github.com",
-      cover: "https://via.placeholder.com/150",
-      backgroundColor: "#000",
+      cover: "/dualiza.png",
+      backgroundColor: "border border-accent hover:border-indigo-500",
     },
     {
       title: "Project 3",
       description: "This is a project 3 description",
-      tech: ["React", "Tailwind", "Next.js"],
+      tech: [SiReact, SiTailwindcss, SiNextdotjs],
       link: "https://github.com",
-      cover: "https://via.placeholder.com/150",
-      backgroundColor: "#000",
+      cover: "/portfolio.png",
+      backgroundColor: "border border-accent hover:border-indigo-500",
     },
     {
       title: "Project 4",
       description: "This is a project 4 description",
-      tech: ["React", "Tailwind", "Next.js"],
+      tech: [SiReact, SiTailwindcss, SiNextdotjs],
       link: "https://github.com",
-      cover: "https://via.placeholder.com/150",
-      backgroundColor: "#000",
+      cover: "/dualiza.png",
+      backgroundColor: "border border-accent hover:border-indigo-500",
     },
   ];

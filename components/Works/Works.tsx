@@ -3,48 +3,35 @@ import { Title } from '../Title'
 import { dataWorks } from './Works.data'
 import Link from 'next/link'
 import { cn } from '@/lib/utils'
-import { ContainerScroll } from '../ui/container-scroll-animation'
-import Image from 'next/image'
+import { DirectionAwareHover } from '../ui/direction-aware-hover'
 
 export function Works() {
   return (
-    <div id='works'>
-      <Title text="Works 💳" className="flex flex-col items-center justify-center" />
-      <div className='grid grid-cols-1  pt-20'>
-        {dataWorks.map((work) => {
-          return (
-            <div key={work.title} className={cn("p-5 rounded-md", work.backgroundColor)}>
-              <div className="flex flex-col overflow-hidden">
-                <ContainerScroll
-                  titleComponent={
-                    <>
-                      <h1 className="text-4xl font-semibold text-black dark:text-white">
-                        {work.title} <br />
-                        <p className='text-4xl md:text-[6rem] font-bol text-gray-300 mt-1 leading-none'>{work.description}</p>
-                      </h1>
-                      <p className="text-base text-accent font-bold mt-1 leading-none">
-                        {work.tech.join(" | ")}
-                      </p>
-                    </>
-                  }
-                >
-                  <Link href={work.link} >
-                    <Image
-                      src={work.cover}
-                      alt="hero"
-                      height={720}
-                      width={1400}
-                      className="mx-auto rounded-2xl object-cover h-full object-center"
-                      draggable={false}
-                    />
-                  </Link>
-                </ContainerScroll>
-              </div>
-            </div>
+    <section className='relative h-screen py-10 p-5 sm:p-0'>
+      <Title text='Works' className='flex flex-col items-center justify-center' />
 
-          )
+      <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5'>
+        {dataWorks.map((work) => {
+          return <Link href={work.link} key={work.title}>
+            <div className={cn("p-5 rounded-md", work.backgroundColor)}>
+              <DirectionAwareHover
+                imageUrl={work.cover}
+                className='w-full h-72 space-y-5 cursor-pointer'
+              >
+                <div className='space-y-5'>
+
+                  <h1 className='text-2xl font-bold'>{work.title}</h1>
+                  <div className='flex items-center gap-5'>
+                    {work.tech.map((Icon, index) => {
+                      return <Icon key={index} className='size-8' />
+                    })}
+                  </div>
+                </div>
+              </DirectionAwareHover>
+            </div>
+          </Link>
         })}
-      </div >
-    </div >
+      </div>
+    </section>
   )
 }
