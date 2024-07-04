@@ -3,7 +3,7 @@ import { dataSocial } from "./Footer.data";
 
 export function Footer() {
   return (
-    <div className="flex justify-around p-6 border-t border-accent/40 ">
+    <div className="flex justify-around mt-10 p-6 border-t border-accent/40 ">
       <div>
         <Link href="/">
           <h1 className="text-2xl font-semibold">
