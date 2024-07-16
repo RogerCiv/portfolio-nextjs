@@ -1,6 +1,5 @@
-import { Footer } from "@/components/Footer/Footer";
+import { AboutMe } from "@/components/ABoutMe";
 import { Footer2 } from "@/components/Footer/Footer2";
-import { Header } from "@/components/Header";
 import { HeroSection } from "@/components/HeroSection/HeroSection";
 import Navbar2 from "@/components/Navbar2/Navbar2";
 import { Skills } from "@/components/Skills/Skills";
@@ -20,6 +19,7 @@ export default function Home() {
       </div>
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skills />
+        <AboutMe />
         <Works />
         <Footer2 />
       </div>
