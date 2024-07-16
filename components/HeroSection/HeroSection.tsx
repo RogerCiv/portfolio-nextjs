@@ -38,7 +38,7 @@ export function HeroSection() {
         <TypewriterEffect words={words} className="text-4xl lg:text-7xl font-bold" cursorClassName="bg-accent" />
         {/* <h1 className="text-4xl lg:text-7xl font-bold">Nice to meet you! 🖖 <br /> <span className="underline underline-offset-8 decoration-accent">{"I'm RogerCiv"}</span></h1> */}
         <p className="md:w-96 text-lg text-gray-300">
-          {" Based in Spain, I'm a Fullstack developer passionate about building a modern web application than users love."}
+          {" Based in Spain, I'm a Front-end developer passionate about building a modern web application than users love."}
         </p>
         <Link href={"mailto:rogercivdev@gmail.com"} className="inline-block group">
           <Title text="Contact Me 📫" className="" />
