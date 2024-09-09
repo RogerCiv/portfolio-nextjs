@@ -4,18 +4,13 @@ import { SocialType } from "./Navbar2.type";
 
 export const dataSocial: SocialType[] = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/',
-    icon: SiTwitter,
-  },
-  {
     name: 'Instagram',
     url: 'https://www.instagram.com/',
     icon: SiInstagram,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/rogerciv/',
     icon: SiLinkedin,
   },
   {

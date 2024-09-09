@@ -12,7 +12,7 @@ export default function Navbar2({ className }: { className?: string }) {
       <div className='flex items-center gap-5'>
         {dataSocial.map((social) => {
           const Icon = social.icon
-          return <Link href={social.url} key={social.name} aria-label={social.name}>
+          return <Link href={social.url} key={social.name} aria-label={social.name} target='_blank'>
             <Icon className="size-5 hover:opacity-75 hover:scale-125 hover:text-accent-hover transition-all" />
           </Link>
         })}
