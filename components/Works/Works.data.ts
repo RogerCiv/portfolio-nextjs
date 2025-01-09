@@ -1,12 +1,12 @@
-import { SiAstro, SiNextdotjs, SiPrisma, SiReact, SiStripe, SiSupabase, SiTailwindcss, SiThreedotjs } from "react-icons/si";
+import { SiAstro, SiCloudflare, SiMongodb, SiNextdotjs, SiPrisma, SiReact, SiStripe, SiSupabase, SiTailwindcss, SiThreedotjs, SiVercel } from "react-icons/si";
 
 
 export const dataWorks = [
   {
     title: "Diversia Interiorismo",
     description: "Proyecto de página web para un estudio de interiorismo.",
-    tech: [ SiTailwindcss, SiNextdotjs, SiPrisma],
-    link: "https://diversia-nextjs.vercel.app/",
+    tech: [ SiTailwindcss, SiNextdotjs, SiPrisma, SiVercel, SiCloudflare, SiMongodb],
+    link: "https://www.diversiainteriorismo.com",
     cover: "/projects/diversia.webp",
     backgroundColor: "border border-accent hover:border-indigo-500",
   },
