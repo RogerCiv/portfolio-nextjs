@@ -12,7 +12,7 @@ const jetBrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "RogerCiv Portfolio",
-  description: "Portfolio of RogerCiv, a Front-end developer based in Spain.",
+  description: "Portfolio of RogerCiv, a Software Developer based in Spain.",
 };
 
 export default function RootLayout({

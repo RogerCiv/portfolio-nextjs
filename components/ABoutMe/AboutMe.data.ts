@@ -26,7 +26,7 @@ export const dataAbout: AboutMeType[] = [
   },
   {
     title: "Graduado en Sistemas Microinformáticos y Redes",
-    subtitle: "IES Padre Suarez, Granada",
+    subtitle: "IES Padre Suárez, Granada",
     description: `Obtuve el título de Técnico en Sistemas Microinformáticos y Redes, adquiriendo las bases 
     necesarias y habilidades avanzadas para comercialización, montaje y reparación de equipos, redes y servicios 
     microinformáticos en general, como parte del soporte informático.`,
