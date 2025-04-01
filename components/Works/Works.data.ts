@@ -1,4 +1,4 @@
-import { SiAstro, SiCloudflare, SiMongodb, SiNextdotjs, SiPrisma, SiReact, SiStripe, SiSupabase, SiTailwindcss, SiThreedotjs, SiVercel } from "react-icons/si";
+import { SiAstro, SiCloudflare, SiDaisyui, SiMongodb, SiNextdotjs, SiPrisma, SiReact, SiReactrouter, SiStripe, SiSupabase, SiTailwindcss, SiThreedotjs, SiVercel } from "react-icons/si";
 
 
 export const dataWorks = [
@@ -16,6 +16,14 @@ export const dataWorks = [
     tech: [SiReact, SiTailwindcss, SiThreedotjs],
     link: "https://dualiza.ieshlanz.es",
     cover: "/projects/dualiza.png",
+    backgroundColor: "border border-accent hover:border-indigo-500",
+  },
+  {
+    title: "Noken Vocabulary",
+    description: "This is a project 3 description",
+    tech: [SiReact, SiTailwindcss, SiSupabase, SiDaisyui, SiReactrouter],
+    link: "https://noken-vocabulary.vercel.app",
+    cover: "/projects/noken_vocabulary.png  ",
     backgroundColor: "border border-accent hover:border-indigo-500",
   },
   {
