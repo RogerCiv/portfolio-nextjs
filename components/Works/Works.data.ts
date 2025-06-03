@@ -27,10 +27,10 @@ export const dataWorks = [
     backgroundColor: "border border-accent hover:border-indigo-500",
   },
     {
-    title: "Noken Vocabulary",
+    title: "Amelia Illustrator",
     description: "This is a project 3 description",
     tech: [SiAstro, SiTailwindcss],
-    link: "https://noken-vocabulary.vercel.app",
+    link: "https://illustrator-web.netlify.app",
     cover: "/projects/illustrator_web.png",
     backgroundColor: "border border-accent hover:border-indigo-500",
   },
