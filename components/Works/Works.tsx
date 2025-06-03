@@ -7,7 +7,7 @@ import { DirectionAwareHover } from '../ui/direction-aware-hover'
 
 export function Works() {
   return (
-    <section className='py-10 p-5 sm:p-0 md:h-screen'>
+    <section className='py-32 p-5 sm:p-0 mb-20'>
       <Title text='Projects 🖥️' className='flex flex-col items-center justify-center' />
 
       <div className='grid grid-cols-1 sm:grid-cols-2 pt-20 gap-10'>

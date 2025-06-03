@@ -23,7 +23,15 @@ export const dataWorks = [
     description: "This is a project 3 description",
     tech: [SiReact, SiTailwindcss, SiSupabase, SiDaisyui, SiReactrouter],
     link: "https://noken-vocabulary.vercel.app",
-    cover: "/projects/noken_vocabulary.png",
+    cover: "/projects/noken_vocabulary.webp",
+    backgroundColor: "border border-accent hover:border-indigo-500",
+  },
+    {
+    title: "Noken Vocabulary",
+    description: "This is a project 3 description",
+    tech: [SiAstro, SiTailwindcss],
+    link: "https://noken-vocabulary.vercel.app",
+    cover: "/projects/illustrator_web.png",
     backgroundColor: "border border-accent hover:border-indigo-500",
   },
   {
