@@ -71,7 +71,7 @@ export const DirectionAwareHover = ({
     >
       <AnimatePresence mode="wait">
         <motion.div
-          className="relative h-full w-full"
+          className="relative h-full w-full "
           initial="initial"
           whileHover={direction}
           exit="exit"
@@ -88,7 +88,7 @@ export const DirectionAwareHover = ({
             <Image
               alt="image"
               className={cn(
-                "h-full w-full object-cover scale-[1.15]",
+                "h-full w-full object-cover object-top rounded-xl",
                 imageClassName
               )}
               width="1000"
