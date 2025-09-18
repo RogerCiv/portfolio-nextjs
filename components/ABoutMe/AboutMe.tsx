@@ -6,7 +6,7 @@ import { AboutMeType } from "./AboutMe.types";
 
 export function AboutMe() {
   return (
-    <section className='py-40'>
+    <section className='py-40 mt-10'>
       <Title text="About Me 🫣" className="flex flex-col items-center justify-center mb-16" />
 
       <TracingBeam className="px-6">
